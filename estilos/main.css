@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: "robotomono";
+    src: url("../fonts/RobotoMono-Italic.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* logo del navbar */
+
+.mate-logo{
+    width: 5rem;
+}
+
+.menu-header{
+    font-family: "roboto";
+    
+}
+
+/* cierre navbar */
+
+/* index main */
+.emoji-bt svg{
+    width: 30px;
+    height: 50px ; 
+}
+
+/* main */
+.main{
+    font-family: "robotomono";
+    background-image: url(../carpeta-img/wooden-texture.jpg);
+    padding: 2rem;
+}
+
+.main-titulo{
+    font-family: "roboto";
+    padding-bottom: 2rem;
+}
+.main-menu{
+    font-size: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.img-local{
+    width: 500px;
+}
+/* cierre main */
+
+/* footer */
+.footer{
+    background-color: gray;
+    font-family: "robotomono";
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-redes svg {
+ width: 30px;
+ height: 50px ;
+}
+
+.footer-img{
+    height: 3rem;
+    padding-top: .5rem;
+    padding-left: .7rem;
+}
+/* cierre footer */
+
+/* html productos */
+.contenedor-yerbas{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yerbas{
+    height: 15rem;
+}
+.contenedor-mates{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mates{
+    height: 15rem;
+}
+
+.contenedor-bombillas{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bombillas{
+    height: 15rem;
+}
+/* /productos */
+
+/* html contacto */
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 35rem;
+    margin-bottom: 5rem;
+    margin-left: 45rem;
+   
+   border: 2px solid black;
+}
+
+.nombre-container{
+    font-family: "roboto";
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.hoja-contacto{
+    font-family: "robotomono";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+/* /contacto */
+
+ /* tipsmatero imagen */
+.img-mate{
+    width: 500px;
+}
