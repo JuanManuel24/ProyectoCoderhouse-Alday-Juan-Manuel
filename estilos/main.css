@@ -102,6 +102,26 @@
 .bombillas{
     height: 15rem;
 }
+
+.contenedor-termos{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.termos{
+    height: 15rem; 
+}
+
+.contenedor-materas{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matera{
+    height: 15rem;
+}
 /* /productos */
 
 /* html contacto */
