@@ -40,39 +40,48 @@
          </nav>
     </header>
     <main class="main">
-    <section>
-        <div class="container-contacto">
-            <div class="nombre-container">
-                <h2>Contacto</h2>
-                <hr>
-                <form class="hoja-contacto" >
-                    <div>
-                        <label for="name">Nombre</label>
-                        <br>
-                        <input id="name" type="text" placeholder="Nombre" required>
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <br>
-                        <input id="email" type="email" placeholder="Email" required>
-                    </div>
-                    <div>
-                        <label for="consulta">Consulta</label>
-                        <br>
-                        <input id="consulta" type="text" placeholder="¿Que desea consultar?">
-                    </div>
-                    <br>
-                    <div>
-                        <textarea rows="5" cols="50" placeholder="ingrese su mensaje" required></textarea>
-                    </div>
-                    <div>
-                        <input type="submit">
-                        <input type="reset" value="Borrar">
-                    </div>
-                </form>
-            </div>
+<section class="contact">
+  <div class="container mb-3 mb-lg-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pd-2 pd-lg-5">
+          <h2>Contacto</h2>
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-12 col-lg-6 pt-4 pb-4">
+        <form class="bg-light p-4 m-auto shadow-sm">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input class="form-control" placeholder="Nombre" type="text" required>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3" >
+                <input class="form-control" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3" >
+                <input class="form-control" placeholder="Asunto" type="text">
+              </div>
+            </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea class="form-control" placeholder="Mensaje" rows="5" required></textarea>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary btn-lg btn-block mt-3" type="submit" value="Submit">Enviar</button>
+                    <button class="btn btn-primary btn-lg btn-block mt-3" type="reset" value="Reset">Borrar</button>
+                  </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-redes text-center" >
