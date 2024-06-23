@@ -74,54 +74,7 @@
 /* cierre footer */
 
 /* html productos */
-.contenedor-yerbas{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
 
-.yerbas{
-    height: 15rem;
-}
-.contenedor-mates{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.mates{
-    height: 15rem;
-}
-
-.contenedor-bombillas{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bombillas{
-    height: 15rem;
-}
-
-.contenedor-termos{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.termos{
-    height: 15rem; 
-}
-
-.contenedor-materas{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.matera{
-    height: 15rem;
-}
 /* /productos */
 
 /* html contacto */
