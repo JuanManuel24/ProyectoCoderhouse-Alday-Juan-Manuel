@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Italic.ttf");
+}
+@font-face {
+  font-family: "robotomono";
+  src: url("../fonts/RobotoMono-Italic.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: black;
+  color: rgb(9, 121, 9);
+}
+*::selection {
+  background-color: black;
+  color: rgb(9, 121, 9);
+}
+
+.menu-header {
+  font-family: "roboto";
+}
+.menu-header .mate-logo {
+  width: 5rem;
+}/*# sourceMappingURL=styles.css.map */

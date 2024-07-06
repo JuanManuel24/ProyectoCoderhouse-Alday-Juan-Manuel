@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Italic.ttf");
+  }
+  @font-face {
+    font-family: "robotomono";
+    src: url("../fonts/RobotoMono-Italic.ttf");
+  }
+$fontroboto: "roboto";
+$fontrobotomono: "robotomono";
+
+$maincolor:rgb(9, 121, 9);
+$secondarycolor:rgb(131, 129, 129);
