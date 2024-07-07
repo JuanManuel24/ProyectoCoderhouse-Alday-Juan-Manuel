@@ -25,6 +25,10 @@
   .mate-logo {
     width: 5rem;
   }
+
+  .nav-link {
+    text-decoration: none;
+    color: rgb(214, 199, 199)}
   
   /* cierre navbar */
   
@@ -34,6 +38,57 @@
     height: 50px;
   }
   
+  .hero{
+    height: 100vh;
+    background-image: url("../carpeta-img/traditional-yerba.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content{
+    width: 40%;
+    padding: .3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.486);
+    backdrop-filter: blur (1px);
+    color: black;
+  }
+  .hero-title{
+    font-size: 4rem;
+    color: black
+  }
+
+  .tarjetas{
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+    font-family:"robotomono";
+    background-image: url(../carpeta-img/wooden-texture.jpg);
+  }
+
+  .tarjeta{
+    flex: 1;
+    background-color: black;
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+  
+  .tarjeta-img{
+    width: 100%;
+  }
+
+  .tarjeta-info{
+    padding: .2rem;
+    color: rgb(214, 199, 199);
+  }
+
   /* main */
   .main {
     font-family: "robotomono";
@@ -51,7 +106,6 @@
   .img-local {
     width: 500px;
   }
-  /* cierre main */
   
   .banner {
     padding: 50px 0;
@@ -67,14 +121,16 @@
   .banner img {
     width: 800px;
   }
+  /* cierre main */
   
   /* footer */
   .footer {
     width: 100%;
-    background-color: rgb(131, 129, 129);
+    color: rgb(214, 199, 199);
     font-family: "robotomono";
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
   }
   .footer-redes svg {
     width: 30px;
