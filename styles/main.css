@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "roboto";
     src: url("../fonts/Roboto-Italic.ttf");
   }
@@ -20,7 +20,7 @@
   /*=============================================
   =                   Navbar                   =
   =============================================*/
-  .menu-header {
+  /* .menu-header {
     font-family: "roboto";
   }
   
@@ -38,7 +38,7 @@
  /*=============================================
  =                   Index Main                =
  =============================================*/
-  .emoji-bt svg {
+  /* .emoji-bt svg {
     width: 30px;
     height: 50px;
   }
@@ -94,7 +94,7 @@
   .tarjeta-info {
     padding: .2rem;
     color: rgb(214, 199, 199);
-  }
+  } */
 
   /*============  End index Main  =============*/
 
@@ -104,7 +104,7 @@
    /*=============================================
    =                  Banner Productos          =
    =============================================*/
-  .banner {
+  /* .banner {
     font-family:"robotomono";
     padding: 50px 0;
     margin-bottom: 80px;
@@ -115,7 +115,7 @@
     text-transform: uppercase;
     font-weight: 800;
   }
-  
+   */
   /* .banner img {
     width: 800px;
   }  */
@@ -135,7 +135,7 @@
    =                   Quienes Somos            =
    =============================================*/
 
-.gallery {
+/* .gallery {
   font-family: "robotomono";
 max-width: 950px;
 margin: 70px auto;
@@ -200,13 +200,13 @@ transition: transform 0.5s ease;
 
 .gallery__item:hover .gallery__overlay {
   transform: translateY(0%);
-}
+} */
 
 /*=============================================
 =                   Responsive                  =
 =============================================*/
 /* ---------------Tablet-------------------- */
-@media  (max-width: 992px) {
+/* @media  (max-width: 992px) {
   .gallery{
     max-width: 950px;
     grid-template-columns: repeat(2, 1fr);
@@ -215,11 +215,11 @@ transition: transform 0.5s ease;
     .gallery__item--9 {
       grid-column: span 2;
     }
-}
+} */
 
  /*----------------- Movil -------------------*/
 
-@media  (max-width: 992px) {
+/* @media  (max-width: 992px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
     margin: 30px;
@@ -241,7 +241,7 @@ transition: transform 0.5s ease;
     .gallery__item--9 {
       grid-column: span 2;
     }
-}
+} */
 
 /* --------- End Quienes Somos ----------- */
 
@@ -249,17 +249,5 @@ transition: transform 0.5s ease;
    /*=============================================
    =                   Footer                  =
    =============================================*/
-  .footer {
-    width: 100%;
-    color: rgb(214, 199, 199);
-    font-family: "robotomono";
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-  }
-  .footer-redes svg {
-    width: 30px;
-    height: 30px;
-  }
-  /*============  End Footer  =============*/
+
   

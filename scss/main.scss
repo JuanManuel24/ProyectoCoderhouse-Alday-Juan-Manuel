@@ -14,7 +14,8 @@
 
       .nav-link {
         text-decoration: none;
-        color: rgb(214, 199, 199)}
+        color: white;
+      }
 
   }
 
@@ -157,16 +158,9 @@
 
     }
 
-    .footer {
-        width: 100%;
-        color: rgb(214, 199, 199);
-        font-family: "robotomono";
-        display: flex;
-        justify-content: space-between;
-        padding: 2rem;
-
-        .footer-redes svg {
-            width: 30px;
-            height: 30px;
-          }
+    .letra-footer{
+        font-family:"robotomono";
+        .bi{ 
+          font-size:1.7em
+         }
       }

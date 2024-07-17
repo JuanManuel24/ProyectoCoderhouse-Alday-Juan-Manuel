@@ -52,7 +52,7 @@
 }
 .menu-header .nav-link {
   text-decoration: none;
-  color: rgb(214, 199, 199);
+  color: white;
 }
 
 .hero {
@@ -170,17 +170,12 @@
   grid-column: span 2;
 }
 
-.footer {
-  width: 100%;
-  color: rgb(214, 199, 199);
+.letra-footer {
   font-family: "robotomono";
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+
 }
-.footer .footer-redes svg {
-  width: 30px;
-  height: 30px;
+.bi{ 
+ font-size:1.7em
 }
 
 /*# sourceMappingURL=styles.css.map */
