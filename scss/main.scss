@@ -7,6 +7,8 @@
 
   .menu-header {
     font-family: "roboto";
+    font-weight: 600;
+    font-size: 18px;
 
     .mate-logo {
         width: 5rem;
@@ -19,74 +21,10 @@
 
   }
 
-  .hero {
-    height: 100vh;
-    background-image: url("../carpeta-img/traditional-yerba.avif") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .hero-content {
-        width: 40%;
-        padding: .3rem;
-        border-radius: 3rem;
-        background-color: rgba(255, 255, 255, 0.486);
-        backdrop-filter: blur (1px);
-        color: black;
-
-        .hero-title {
-            font-size: 4rem;
-            color: black
-          }
-
-      }
-
-  }
-
-  .tarjetas {
-    padding: 4rem;
-    display: flex;
-    gap: 3rem;
-    font-family:"robotomono";
-
-    .tarjeta {
-        flex: 1;
-        background-color: black;
-        border-radius: .5rem;
-        overflow: hidden;
-
-        .tarjeta-img {
-            width: 100%;
-            object-fit: cover;
-          }
-
-          .tarjeta-info {
-            padding: .2rem;
-            color: rgb(214, 199, 199);
-          }
-
-      }
-
-  }
-
   .banner {
     font-family:"robotomono";
     padding: 50px 0;
     margin-bottom: 80px; 
-
-    .banner h3 {
-        font-size: 40px;
-        text-transform: uppercase;
-        font-weight: 800;
-      }
-      
   }
   
   .gallery {
