@@ -11,7 +11,7 @@
     font-size: 18px;
 
     .mate-logo {
-        width: 5rem;
+        width: 7rem;
       }
 
       .nav-link {
@@ -27,74 +27,74 @@
     margin-bottom: 80px; 
   }
   
-  .gallery {
-    max-width: 950px;
-    margin: 70px auto;
-    display: grid;
-    align-items: stretch;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 250px;
-    justify-self: center;
-    justify-content: center;
-    gap: 1rem;
+  // .gallery {
+  //   max-width: 950px;
+  //   margin: 70px auto;
+  //   display: grid;
+  //   align-items: stretch;
+  //   grid-template-columns: repeat(3, 1fr);
+  //   grid-auto-rows: 250px;
+  //   justify-self: center;
+  //   justify-content: center;
+  //   gap: 1rem;
 
-    .gallery__item {
-        background-color: rgb(230, 158, 158);
-        position: relative;
-        overflow: hidden;
+  //   .gallery__item {
+  //       background-color: rgb(230, 158, 158);
+  //       position: relative;
+  //       overflow: hidden;
 
-        &:hover .gallery__overlay {
-            transform: translateY(0%);
-        }
+  //       &:hover .gallery__overlay {
+  //           transform: translateY(0%);
+  //       }
 
-        .gallery__img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
+  //       .gallery__img {
+  //           width: 100%;
+  //           height: 100%;
+  //           object-fit: cover;
+  //         }
 
-          .gallery__overlay {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            transform: translateY(100%);
-            background-color: rgba(0, 0, 0, 0.500);
-            transition: transform 0.5s ease;
+  //         .gallery__overlay {
+  //           position: absolute;
+  //           display: flex;
+  //           justify-content: center;
+  //           align-items: center;
+  //           bottom: 0;
+  //           left: 0;
+  //           right: 0;
+  //           height: 100%;
+  //           transform: translateY(100%);
+  //           background-color: rgba(0, 0, 0, 0.500);
+  //           transition: transform 0.5s ease;
 
-            .gallery__text {
-                width: 100%;
-                color: white;
-                font-size: 25px;
-                text-align: center;
-              }
+  //           .gallery__text {
+  //               width: 100%;
+  //               color: white;
+  //               font-size: 25px;
+  //               text-align: center;
+  //             }
 
-            }
+  //           }
 
-      }
+  //     }
 
-      .gallery__item--1 {
-        grid-column: span 2;
-        grid-row: span 2;
-      }
+  //     .gallery__item--1 {
+  //       grid-column: span 2;
+  //       grid-row: span 2;
+  //     }
       
-      .gallery__item--2 {
-      grid-row: span 2;
-      }
+  //     .gallery__item--2 {
+  //     grid-row: span 2;
+  //     }
       
-      .gallery__item--5 {
-        grid-row: span 2;
-      }
+  //     .gallery__item--5 {
+  //       grid-row: span 2;
+  //     }
       
-      .gallery__item--8 {
-        grid-column: span 2;
-      }
+  //     .gallery__item--8 {
+  //       grid-column: span 2;
+  //     }
 
-    }
+  //   }
 
     .letra-footer{
         font-family:"robotomono";

@@ -49,8 +49,8 @@
   font-weight: 600;
   font-size: 18px;
 }
-.menu-header .mate-logo {
-  width: 5rem;
+.mate-logo {
+  width: 7rem;
 }
 .menu-header .nav-link {
   text-decoration: none;
@@ -63,7 +63,7 @@
   margin-bottom: 80px;
 }
 
-.gallery {
+/* .gallery {
   max-width: 950px;
   margin: 70px auto;
   display: grid;
@@ -118,7 +118,7 @@
 }
 .gallery .gallery__item--8 {
   grid-column: span 2;
-}
+} */
 
 .letra-footer {
   font-family: "robotomono";
