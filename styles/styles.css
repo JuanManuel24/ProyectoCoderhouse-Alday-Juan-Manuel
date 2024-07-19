@@ -30,10 +30,30 @@
   color: white;
 }
 
+.carousel {
+  font-family: "robotomono"
+}
+
+.section-icons{
+  font-family: "robotomono"
+}
+
+.product {
+  font-family: "robotomono"
+}
+
 .banner {
   font-family: "robotomono";
   padding: 50px 0;
   margin-bottom: 80px;
+}
+
+.contact {
+  font-family: "robotomono";
+}
+
+.margin-section {
+  font-family: "robotomono";
 }
 
 .letra-footer {
