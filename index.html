@@ -16,6 +16,7 @@
    <link
    rel="stylesheet"
    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,11 +51,12 @@
       </div>
     </nav>
     <!-- header -->
-
+     <hr class="mt-0 mb-0">
     <!-- main -->
     <main>
+      <h1 class=" title-one text-center text-white mb-0 bg-dark animate__animated animate__backInLeft">CEDRO MATES</h1>
+      <hr class="mt-0 mb-0">
       <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
-        
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselE1"data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
           <button type="button" data-bs-target="#carouselE1"data-bs-slide-to="1" aria-label="slide 2"></button>
@@ -64,19 +66,19 @@
           <div class="carousel-item active">
             <img src="./carpeta-img/carrusel-1.jpg" class="d-block w-100" alt="Termo stanley verde">
             <div class="carousel-caption">
-              <p class="h2">CEDRO MATES</p>
+              <p class="h2">Toda la linea Stanley</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./carpeta-img/carrusel-2.jpg" class="d-block w-100" alt="Un mate con dos paquetes de yerba canarias">
             <div class="carousel-caption">
-              <p class="h2">CEDRO MATES</p>
+              <p class="h2">Yerba Canarias</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./carpeta-img/carrusel-3.jpeg" class="d-block w-100" alt="un mate siendo pasado para compartir">
             <div class="carousel-caption">
-              <p class="h2">CEDRO MATES</p>
+              <p class="h2">Tomar MATE Siempre es Buena Idea</p>
             </div>
           </div>
         </div>
@@ -102,7 +104,7 @@
             </div>
             <div class="col-12 col-md-12 col-lg-4 mb-3 pt-3">
               <div class="card">
-                <div class="card-body m-0 p-0">
+                <div class="card-body m-0 p-0" >
                     <img class="img-fluid" src="./carpeta-img/messi.jpg" alt="Lionel Messi tomando mates en la cama con la copa del mundo">
                 </div>
               </div>
@@ -162,7 +164,7 @@
             <div class="col-md-12 text-center">
               <p class="h4">¿UN MATE PARA TODA LA VIDA?</p>
               <P class="h6">ESTAS EN EL LUGAR CORRECTO</P>
-              <div>
+              <div data-aos="flip-left">
                 <img class="img-fluid" src="./carpeta-img/mate-banner.jpg" alt="mate en mano y mate siendo cebado">
               </div>
             </div>
@@ -196,5 +198,9 @@
     </footer>
     <!--bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
