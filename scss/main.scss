@@ -1,53 +1,51 @@
 @import "./base/media-queries";
 @import "./base/reset";
 @import "./base/fonts";
+@import "./components/title-one.scss";
+@import "./components/carrusel.scss";
+@import "./components/servicios.scss";
+@import "./components/banner.scss";
+@import "./components/header";
+@import "./components/sections-icons";
+@import "./components/productos";
+@import "./components/contacto";
+@import "./components/tips";
+@import "./components/margin-section";
+@import "./components/footer";
 
-  .menu-header {
-    font-family: "roboto";
-    font-weight: 600;
-    font-size: 18px;
+.menu-header {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 18px;
 
-    .mate-logo {
-        width: 7rem;
-      }
-
-      .nav-link {
-        text-decoration: none;
-        color: white;
-      }
-
-  }
-
-  .title-one{
-    font-size: 50px;
-    font-family: "roboto"
-  }
-
-  .carousel {
-    font-family: "robotomono"
-  }
-  
-  .services {
-    font-family: "robotomono";
-  }
-  
+.mate-logo {
+  width: 7rem;
+}
+.menu-header .nav-link {
+  text-decoration: none;
+  color: white;
+}
+}
 
   .section-icons{
     font-family: "robotomono"
   }
-  
+
   .product {
     font-family: "robotomono"
   }
-  
+
   .banner {
     font-family:"robotomono";
     padding: 50px 0;
     margin-bottom: 80px; 
   }
 
-  
 .contact {
+  font-family: "robotomono";
+}
+
+.tips {
   font-family: "robotomono";
 }
 

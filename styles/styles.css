@@ -17,6 +17,7 @@
   font-family: "robotomono";
   src: url("../fonts/RobotoMono-Italic.ttf");
 }
+
 .menu-header {
   font-family: "roboto";
   font-weight: 600;
@@ -28,19 +29,6 @@
 .menu-header .nav-link {
   text-decoration: none;
   color: white;
-}
-
-.title-one{
-  font-size: 50px;
-  font-family: "roboto"
-}
-
-.carousel {
-  font-family: "robotomono"
-}
-
-.services {
-  font-family: "robotomono";
 }
 
 .section-icons{
@@ -58,6 +46,10 @@
 }
 
 .contact {
+  font-family: "robotomono";
+}
+
+.tips {
   font-family: "robotomono";
 }
 
